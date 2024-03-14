@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 
-DATA_URL = 'tweet_911/app/data_streamlit/presentation.csv'
+DATA_URL = 'data_streamlit/presentation.csv'
 
 URL_API = st.secrets['URL_API']
 
