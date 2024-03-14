@@ -12,14 +12,12 @@ st.markdown("""
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap')
 
-        # .css-b3z5c9 { width: 100%; }
-        # .css-1y4p8pa { max-width:70%}
         footer {visibility: hidden;}
-        .css-10trblm {
-            color:#1DA1F2;
-            font-family: "Noto Sans", sans-serif;
-        }
-        .css-q3bdcp { width: 100%; }
+        # .css-10trblm {
+        #     color:#1DA1F2;
+        #     font-family: "Noto Sans", sans-serif;
+        # }
+        # .css-q3bdcp { width: 100%; }
         button  {
             background-color:#1DA1F2 !important;
             color:#FFFFFF !important;
@@ -36,46 +34,46 @@ st.markdown("""
             padding-bottom:0px;
         }
 
-        .egzxvld4 .e1tzin5v0 .stMarkdown .e16nr0p34 p{
-            border:1px solid rgba(49, 51, 63, 0.2);
-            border-radius:20px;
-            text-align:center;
-            padding:18px;
-            color:white;
-        }
-        .egzxvld4 .e1tzin5v0 .stMarkdown .e16nr0p34 p a{
-            color:white;
-        }
+        # .egzxvld4 .e1tzin5v0 .stMarkdown .e16nr0p34 p{
+        #     border:1px solid rgba(49, 51, 63, 0.2);
+        #     border-radius:20px;
+        #     text-align:center;
+        #     padding:18px;
+        #     color:white;
+        # }
+        # .egzxvld4 .e1tzin5v0 .stMarkdown .e16nr0p34 p a{
+        #     color:white;
+        # }
 
-        .e1tzin5v1 .e1tzin5v0 .stMarkdown .e16nr0p34 p{
-            border:1px solid rgba(49, 51, 63, 0.2);
-            border-radius:20px;
-            text-align:center;
-            padding:18px;
-            color:#1DA1F2;
-        }
-        .e1tzin5v1 .e1tzin5v0  .stMarkdown .e16nr0p34 p a{
-            color:#1DA1F2;
-        }
+        # .e1tzin5v1 .e1tzin5v0 .stMarkdown .e16nr0p34 p{
+        #     border:1px solid rgba(49, 51, 63, 0.2);
+        #     border-radius:20px;
+        #     text-align:center;
+        #     padding:18px;
+        #     color:#1DA1F2;
+        # }
+        # .e1tzin5v1 .e1tzin5v0  .stMarkdown .e16nr0p34 p a{
+        #     color:#1DA1F2;
+        # }
 
-        .css-6qob1r{
-            background-color:#1DA1F2
-        }
-        .css-uf99v8, .css-1avcm0n{
-            background-color:white;
-        }
+        # .css-6qob1r{
+        #     background-color:#1DA1F2
+        # }
+        # .css-uf99v8, .css-1avcm0n{
+        #     background-color:white;
+        # }
 
-        .e16nr0p34 hr{
-            background-color:rgba(49, 51, 63, 0.2);
-        }
-        .e1fqkh3o10{
-            display:none;
-        }
+        # .e16nr0p34 hr{
+        #     background-color:rgba(49, 51, 63, 0.2);
+        # }
+        # .e1fqkh3o10{
+        #     display:none;
+        # }
 
-        .css-e3xfei{
-            padding-top: 3rem;
+        # .css-e3xfei{
+        #     padding-top: 3rem;
 
-        }
+        # }
 
 
     </style>
