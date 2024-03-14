@@ -22,6 +22,7 @@ st.markdown("""
             background-color:#1DA1F2;
             font-family: "Noto Sans", sans-serif;
             padding:10px 20px 10px 20px;
+            color:white;
         }
 
     </style>
