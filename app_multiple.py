@@ -68,6 +68,17 @@ st.markdown("""
             font-family: "Noto Sans", sans-serif;
         }
 
+        .stLinkButton{
+            display=flex;
+            justify-content: center;
+        }
+        .stLinkButton a{
+            background-color:#1DA1F2 !important;
+            color:#FFFFFF !important;
+            border-color: #1DA1F2 !important;
+            border-radius:20px  !important;
+            padding:10px 20px 10px 20px !important;
+        }
     </style>
     """, unsafe_allow_html=True)
 
