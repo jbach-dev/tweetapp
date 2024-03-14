@@ -60,12 +60,10 @@ st.markdown("""
             padding-top: 3rem;
         }
 
-       #disastertweet{
+       #disastertweet, #actionabletweet{
             color:#1DA1F2;
             font-family: "Noto Sans", sans-serif;
         }
-
-
 
     </style>
     """, unsafe_allow_html=True)
@@ -99,8 +97,6 @@ def mark_disaster():
 def mark_actionable():
     for index in range(0, len(st.session_state.new_tweets)):
         response = requests.get(f'{URL_API}/predict_actionable', { 'tweet': st.session_state.new_tweets[index] })
-        # if response:
-
         prediction = response.json()
         pred = prediction['tweet_actionable']
         print(pred)
@@ -129,4 +125,5 @@ with col2:
     st.markdown('---')
     if st.session_state.stage == 1:
         st.button('Find if the tweets are actionable', on_click=mark_actionable, key='button_state')
-        print(st.session_state.stage)
+    # if st.session_state.stage == 2:
+    #     st.button('Find if the tweets are actionable', on_click=mark_actionable, key='button_state')
