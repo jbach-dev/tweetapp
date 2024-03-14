@@ -12,6 +12,15 @@ st.markdown("""
             background-color:white;
         }
 
+        .stMarkdown{
+            display: flex;
+            justify-content: right;
+        }
+
+        .e1nzilvr5 p{
+            text-align:right;
+        }
+
     </style>
     """, unsafe_allow_html=True)
 
