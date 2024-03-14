@@ -60,7 +60,7 @@ st.markdown("""
             padding-top: 3rem;
         }
 
-       h1{
+       .title{
             color:#1DA1F2;
             font-family: "Noto Sans", sans-serif;
         }
@@ -117,7 +117,7 @@ with st.sidebar:
         st.sidebar.write(st.session_state.display_tweet.iloc[index])
 
 with col1:
-    st.markdown("<h1 style='text-align: center;'>Disaster<br>Tweet</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='title' style='text-align: center;'>Disaster<br>Tweet</h1>", unsafe_allow_html=True)
     st.markdown('---')
     if st.session_state.stage == 0:
         st.button('Find if the tweets are disasters', on_click=mark_disaster, key='button_state')
@@ -125,7 +125,7 @@ with col1:
 
 
 with col2:
-    st.markdown("<h1 style='text-align: center;'>Actionable<br>Tweet</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='title' style='text-align: center;'>Actionable<br>Tweet</h1>", unsafe_allow_html=True)
     st.markdown('---')
     if st.session_state.stage == 1:
         st.button('Find if the tweets are actionable', on_click=mark_actionable, key='button_state')
