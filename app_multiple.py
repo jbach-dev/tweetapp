@@ -120,15 +120,6 @@ def mark_actionable():
 
     st.session_state.stage = 2
 
-# def open_page(url):
-#     open_script= """
-#         <script type="text/javascript">
-#             window.open('%s', '_blank').focus();
-#         </script>
-#     """ % (url)
-#     html(open_script)
-
-
 col1, col2 = st.columns([1, 1], gap="small")
 
 with st.sidebar:
