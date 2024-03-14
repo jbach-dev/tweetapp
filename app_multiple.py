@@ -107,13 +107,13 @@ def mark_actionable():
             col2.write(st.session_state.new_tweets[index])
     st.session_state.stage = 2
 
-def open_page(url):
-    open_script= """
-        <script type="text/javascript">
-            window.open('%s', '_blank').focus();
-        </script>
-    """ % (url)
-    html(open_script)
+# def open_page(url):
+#     open_script= """
+#         <script type="text/javascript">
+#             window.open('%s', '_blank').focus();
+#         </script>
+#     """ % (url)
+#     html(open_script)
 
 
 col1, col2 = st.columns([1, 1], gap="small")
@@ -135,6 +135,6 @@ with col2:
     if st.session_state.stage == 1:
         st.button('Find if the tweets are actionable', on_click=mark_actionable, key='button_state')
     # if st.session_state.stage == 2:
-    st.button('Open link', on_click=open_page('https://911-tweet.streamlit.app/experience'))
+    st.link_button('https://911-tweet.streamlit.app/experience')
 
     # st.button('Answer', href=, key='button_state')
