@@ -52,6 +52,10 @@ st.markdown("""
             display:none;
         }
 
+        .eczjsme4{
+            padding-top: 3rem;
+        }
+
 
 
     </style>
