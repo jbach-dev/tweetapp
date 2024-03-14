@@ -29,7 +29,7 @@ st.markdown("""
             padding-bottom:0px;
         }
 
-        .e1f1d6gn2 .e1f1d6gn4 .stMarkdown .e1nzilvr5 p {
+        .ea3mdgi4 .e1f1d6gn2 .e1f1d6gn4 .stMarkdown .e1nzilvr5 p {
             border:1px solid rgba(49, 51, 63, 0.2);
             border-radius:20px;
             text-align:center;
@@ -40,6 +40,13 @@ st.markdown("""
             color:white;
         }
 
+        .e1f1d6gn3 .e1f1d6gn0 .e1f1d6gn1 .e1f1d6gn2 .e1f1d6gn4 .stMarkdown .e1nzilvr5 p{
+            border:1px solid rgba(49, 51, 63, 0.2);
+            border-radius:20px;
+            text-align:center;
+            padding:18px;
+            color:#1DA1F2;
+        }
 
 
 
