@@ -135,6 +135,6 @@ with col2:
     if st.session_state.stage == 1:
         st.button('Find if the tweets are actionable', on_click=mark_actionable, key='button_state')
     # if st.session_state.stage == 2:
-    st.link_button('https://911-tweet.streamlit.app/experience')
+    st.link_button(url='https://911-tweet.streamlit.app/experience')
 
     # st.button('Answer', href=, key='button_state')
