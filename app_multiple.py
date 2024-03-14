@@ -60,7 +60,7 @@ st.markdown("""
             padding-top: 3rem;
         }
 
-       .title{
+       #disastertweet{
             color:#1DA1F2;
             font-family: "Noto Sans", sans-serif;
         }
