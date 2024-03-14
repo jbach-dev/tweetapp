@@ -36,7 +36,7 @@ st.markdown("""
 
         # .egzxvld4 .e1tzin5v0 .stMarkdown .e16nr0p34 p{
         # .e1f1d6gn2 .e1f1d6gn4 .stMarkdown .e1nzilvr5 p{
-        .e1nzilvr5 p{
+        .st-emotion-cache-1ibzyj6{
             border:1px solid rgba(49, 51, 63, 0.2);
             border-radius:20px;
             text-align:center;
