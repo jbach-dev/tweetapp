@@ -81,7 +81,7 @@ data = load_data(200)
 if 'display_tweet' not in st.session_state:
     st.session_state.stage = 0 # 0: Initial, 1: Disaster, 2: Actionable
     st.session_state.display_tweet = random.shuffle(data['tweet_text'])
-    st.write(st.session_state.display_tweet)
+    st.write(type(data['tweet_text']))
     st.session_state.new_tweets = []
 
 def mark_disaster():
