@@ -118,7 +118,6 @@ with col1:
     st.markdown('---')
     if st.session_state.stage == 0:
         st.button('Find if the tweets are disasters', on_click=mark_disaster, key='button_state')
-        print(st.session_state.stage)
 
 
 with col2:
@@ -126,5 +125,5 @@ with col2:
     st.markdown('---')
     if st.session_state.stage == 1:
         st.button('Find if the tweets are actionable', on_click=mark_actionable, key='button_state')
-    # if st.session_state.stage == 2:
-    #     st.button('Find if the tweets are actionable', on_click=mark_actionable, key='button_state')
+    if st.session_state.stage == 2:
+        st.button('Deal with them', on_click=mark_actionable, key='button_state')
