@@ -27,7 +27,7 @@ if prompt:
     st.chat_message(ASSISTANT).write(f"You wrote {prompt}")
 
 
-# message("RT @ABCWorldNews: MORE: Three people shot, suspect in custody in Los Angeles airport shooting!", is_user=True)  # align's the message to the right
+st.write("RT @ABCWorldNews: MORE: Three people shot, suspect in custody in Los Angeles airport shooting!")
 
 # prompt = st.chat_input("Say something")
 # if prompt:
