@@ -126,5 +126,5 @@ with col2:
     st.markdown('---')
     if st.session_state.stage == 1:
         st.button('Find if the tweets are actionable', on_click=mark_actionable, key='button_state')
-    if st.session_state.stage == 2:
-        st.button('Answer', on_click=get_pages('experience.py'), key='button_state')
+    # if st.session_state.stage == 2:
+    st.button('Answer', href='https://911-tweet.streamlit.app/experience', key='button_state')
