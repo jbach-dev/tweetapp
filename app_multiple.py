@@ -131,7 +131,7 @@ with col1:
     st.markdown("<h1 style='text-align: center;'>Disaster<br>Tweet</h1>", unsafe_allow_html=True)
     st.markdown('---')
     if st.session_state.stage == 0:
-        st.button('Find TEST', on_click=mark_disaster, key='button_state')
+        st.button('Find TEST2', on_click=mark_disaster, key='button_state')
         print(st.session_state.stage)
 
 
