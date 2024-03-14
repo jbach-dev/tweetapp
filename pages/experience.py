@@ -8,7 +8,7 @@ st.markdown("""
         .st-emotion-cache-1veb5w3{
             background-color:white;
         }
-        .avatar{
+        .chat.user{
             display:none;
         }
     </style>
