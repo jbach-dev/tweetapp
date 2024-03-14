@@ -23,6 +23,7 @@ st.markdown("""
             font-family: "Noto Sans", sans-serif;
             padding:10px 20px 10px 20px;
             color:white;
+            border-radius:20px;
         }
 
     </style>
