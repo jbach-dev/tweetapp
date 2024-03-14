@@ -30,6 +30,6 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
-prompt: str = st.chat_input("Enter a prompt here")
+prompt: str = st.chat_input("Answer here")
 
 st.write("RT @ABCWorldNews: MORE: Three people shot, suspect in custody in Los Angeles airport shooting!")
