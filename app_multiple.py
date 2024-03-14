@@ -48,6 +48,10 @@ st.markdown("""
             color:#1DA1F2;
         }
 
+        .eczjsme10{
+            display:none;
+        }
+
 
 
     </style>
