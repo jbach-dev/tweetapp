@@ -36,7 +36,7 @@ st.markdown("""
             padding:18px;
             color:white;
         }
-        .e1f1d6gn2 .e1f1d6gn4 .stMarkdown .e1nzilvr5 p a{
+        .ea3mdgi4 .e1f1d6gn0 .e1f1d6gn1 .e1f1d6gn2 .e1f1d6gn4 .stMarkdown .e1nzilvr5 p a{
             color:white;
         }
 
@@ -46,6 +46,10 @@ st.markdown("""
             text-align:center;
             padding:18px;
             color:#1DA1F2;
+        }
+
+         .e1f1d6gn3 .e1f1d6gn0 .e1f1d6gn1 .e1f1d6gn2 .e1f1d6gn4 .stMarkdown .e1nzilvr5 p a{
+             color:#1DA1F2;
         }
 
         .eczjsme10{
