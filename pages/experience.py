@@ -17,9 +17,18 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+USER = "user"
+ASSISTANT = "assistant"
 
-message("RT @ABCWorldNews: MORE: Three people shot, suspect in custody in Los Angeles airport shooting!", is_user=True)  # align's the message to the right
+prompt: str = st.chat_input("Enter a prompt here")
 
-prompt = st.chat_input("Say something")
+if prompt:
+    st.chat_message(USER).write(prompt)
+    st.chat_message(ASSISTANT).write(f"You wrote {prompt}")
+
+
+# message("RT @ABCWorldNews: MORE: Three people shot, suspect in custody in Los Angeles airport shooting!", is_user=True)  # align's the message to the right
+
+# prompt = st.chat_input("Say something")
 # if prompt:
 #     st.write(f"User has sent the following prompt: {prompt}")
