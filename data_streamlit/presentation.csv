@@ -1,2 +1,3 @@
 tweet_id,tweet_text,class_label,disaster_year,place,disaster_type,disaster,actionable
 831,Tornado Kills 89 in Missouri. http://t.co/KhJUnPE,injured_or_dead_people,2011,joplin,tornado,1,1
+906,"RT @ABCWorldNews: MORE: Three people shot, suspect in custody in Los Angeles airport shooting http://t.co/6Y6SOtBdiy",affected_individual,2013,LA,shooting,1,1
