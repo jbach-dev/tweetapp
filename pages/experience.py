@@ -8,13 +8,15 @@ st.markdown("""
         .st-emotion-cache-1veb5w3{
             background-color:white;
         }
+        .avatar{
+            display:none;
+        }
     </style>
     """, unsafe_allow_html=True)
 
 
-message("My message")
-message("Hello bot!", is_user=True)  # align's the message to the right
+message("RT @ABCWorldNews: MORE: Three people shot, suspect in custody in Los Angeles airport shooting!", is_user=True)  # align's the message to the right
 
 prompt = st.chat_input("Say something")
-if prompt:
-    st.write(f"User has sent the following prompt: {prompt}")
+# if prompt:
+#     st.write(f"User has sent the following prompt: {prompt}")
