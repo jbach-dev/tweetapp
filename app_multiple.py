@@ -116,6 +116,8 @@ def mark_actionable():
         print(pred)
         if round(pred, 2) > 0.4:
             col2.write(st.session_state.new_tweets[index])
+            col2.link_button(url='https://911-tweet.streamlit.app/experience', label='Answer')
+
     st.session_state.stage = 2
 
 # def open_page(url):
@@ -146,6 +148,5 @@ with col2:
     if st.session_state.stage == 1:
         st.button('Find if the tweets are actionable', on_click=mark_actionable, key='button_state')
     # if st.session_state.stage == 2:
-    st.link_button(url='https://911-tweet.streamlit.app/experience', label='Answer')
 
     # st.button('Answer', href=, key='button_state')
