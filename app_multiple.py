@@ -69,7 +69,7 @@ st.markdown("""
         }
 
         .stLinkButton{
-            display=flex;
+            display:flex;
             justify-content: center;
         }
         .stLinkButton a{
