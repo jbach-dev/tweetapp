@@ -5,11 +5,11 @@ st.set_page_config(initial_sidebar_state="collapsed")
 
 st.markdown("""
     <style>
-        .st-emotion-cache-1veb5w3{
-            background-color:white;
-        }
         .avatar{
             display:none !important;
+        }
+        .st-emotion-cache-1veb5w3{
+            background-color:white;
         }
     </style>
     """, unsafe_allow_html=True)
