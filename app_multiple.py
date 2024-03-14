@@ -29,7 +29,7 @@ st.markdown("""
             padding-bottom:0px;
         }
 
-        p {
+        .e1nzilvr5 p {
             border:1px solid rgba(49, 51, 63, 0.2);
             border-radius:20px;
             text-align:center;
