@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import requests
-import random
+from streamlit.source_util import get_pages
+
 
 DATA_URL = 'data_streamlit/presentation.csv'
 
@@ -126,4 +127,4 @@ with col2:
     if st.session_state.stage == 1:
         st.button('Find if the tweets are actionable', on_click=mark_actionable, key='button_state')
     if st.session_state.stage == 2:
-        st.button('Deal with them', on_click=mark_actionable, key='button_state')
+        st.button('Answer', on_click=get_pages('experience.py'), key='button_state')
