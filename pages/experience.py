@@ -11,6 +11,9 @@ st.markdown("""
         .st-emotion-cache-1veb5w3{
             background-color:white;
         }
+        .msg{
+            background-color:white;
+        }
     </style>
     """, unsafe_allow_html=True)
 
