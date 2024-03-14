@@ -60,8 +60,9 @@ st.markdown("""
             padding-top: 3rem;
         }
 
-        .e1nzilvr1{
+        .e1nzilvr4 .e1nzilvr1{
             color:#1DA1F2;
+            font-family: "Noto Sans", sans-serif;
         }
 
 
